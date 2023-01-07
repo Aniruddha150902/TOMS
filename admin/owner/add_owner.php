@@ -24,7 +24,7 @@
             }
             else 
             {
-                echo "<script type='text/javascript'>alert('User added successfully!')</script>";
+                echo "<script type='text/javascript'>alert('owner added successfully!')</script>";
             }         
         }
     ?>

@@ -29,7 +29,7 @@
                 <?php
                 if (isset($_GET['lc'])) {
                     $lc = $_GET['lc'];
-                    $query = "SELECT O.NOTICE_ID,V.LICENSE_NUMBER,F.FINE_DESCRIPTION,O.PLACE,O.DATE,F.FINE_AMOUNT FROM VIOLATIONS O,VEHICLE V,FINE_TICKETS F WHERE O.VEHICLE_ID=V.VEHICLE_ID AND O.FINE_ID=F.FINE_ID AND LICENSE_NUMBER='{$lc}'";
+                    $query = "SELECT O.NOTICE_ID,V.LICENSE_NUMBER,F.FINE_DESCRIPTION,O.PLACE,O.DATE,F.FINE_AMOUNT FROM VIOLATIONS O,VEHICLE V,FINE_TICKETS F WHERE O.VEHICLE_ID=V.VEHICLE_ID AND O.FINE_ID=F.FINE_ID AND V.LICENSE_NUMBER='{$lc}'";
                     $view_offence = mysqli_query($conn, $query);
                     while ($row = mysqli_fetch_assoc($view_offence)) {
                         $id = $row['NOTICE_ID'];

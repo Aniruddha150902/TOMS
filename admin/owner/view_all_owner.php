@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center" >Traffic Police Officers</h1>
+        <h1 class="text-center" >Vehicle Owners</h1>
         <a href="add_owner.php" class='btn btn-outline-dark mb-2'><i class="bi bi-person-plus"></i> add New Owner</a>
         <table class="table table-striped table-bordered table-hover">
             <thead class="table-dark">

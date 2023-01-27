@@ -48,54 +48,70 @@
       </div>
     </nav>
   </section>
-    <div id="carouselExample" class="carousel slide carousalimage">
-      <div class="carousel-inner">
+  <div id="carouselExample" class="carousel slide carousalimage">
+    <div class="carousel-inner">
 
 
-        <div class="carousel-item active">
+      <div class="carousel-item active">
 
-          <img src="images\pexels-tim-gouw-147430.jpg" class="d-block w-100" alt="...">
-          <div class="one">
-       
-       
-       
-       
+        <img src="images\pexels-tim-gouw-147430.jpg" class="d-block w-100" alt="...">
+        <div class="one">
+
+
+
+
           TOMS
-          </div>
-          <div class="two">
-            (check & pay your fines)
-          </div>
         </div>
-        <div class="carousel-item">
-          <img src="images\pexels-kindel-media-7715191.jpg" class="d-block w-100" alt="...">
-         </div>
-
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
-      </div>
-      </div>
-        <h1 class="text-center">CHECK FINE</h1>
-        <div class="container">
-          <form action="" method="post">
-            <div class="form-group">
-              <label for="l_c" class="form-label">ENTER YOUR LICENSE NUMBER :</label>
-              <input type="text" name="l_c" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="submit" name="check" class="btn btn-primary mt-2" value="submit">
-            </div>
-          </form>
+        <div class="two">
+          (check & pay your fines)
         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images\pexels-kindel-media-7715191.jpg" class="d-block w-100" alt="...">
+      </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+  <h1 class="text-center">CHECK FINE</h1>
+  <div class="container">
+    <form action="" method="post">
+      <div class="form-group">
+        <label for="l_c" class="form-label">ENTER YOUR LICENSE NUMBER :</label>
+        <input type="text" name="l_c" class="form-control">
+      </div>
+      <div class="form-group">
+        <input type="submit" name="check" class="btn btn-primary mt-2" value="submit">
+      </div>
+    </form>
+  </div>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 
 </html>

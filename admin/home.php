@@ -97,7 +97,11 @@
     </style>
 </head>
 
-<body class="toms">
+<body class="toms" style=" background-image: url(p9rdyvwu2tybvezaz5su.jpg);
+height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
 
 
     <h1 class="option">ADMIN FUNCTIONALITY</h1>

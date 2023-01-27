@@ -26,7 +26,8 @@
             </thead>
             <tbody>
                 <?php
-                    $query="SELECT O.NOTICE_ID,V.LICENSE_NUMBER,F.FINE_DESCRIPTION,O.PLACE,O.DATE,F.FINE_AMOUNT FROM VIOLATIONS O,VEHICLE V,FINE_TICKETS F WHERE O.VEHICLE_ID=V.VEHICLE_ID AND O.FINE_ID=F.FINE_ID";
+                    $query="SELECT O.NOTICE_ID,V.LICENSE_NUMBER,F.FINE_DESCRIPTION,O.PLACE,O.DATE,F.FINE_AMOUNT FROM VIOLATIONS O,VEHICLE V,FINE_TICKETS F
+                     WHERE O.VEHICLE_ID=V.VEHICLE_ID AND O.FINE_ID=F.FINE_ID";
                     $view_offence= mysqli_query($conn,$query);
                     while($row= mysqli_fetch_assoc($view_offence))
                     {

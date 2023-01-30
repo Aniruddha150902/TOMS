@@ -7,22 +7,22 @@
 	<title>TOMS</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="../css/styleslogin.css">
 </head>
 
 <body>
 
 	<div class="background">
 		<video autoplay loop muted>
-			<source src="video\pexels-taryn-elliott-5665076.mp4">
+			<source src="../video/pexels-taryn-elliott-5665076.mp4">
 		</video>
 	</div>
 	<div class="login-box">
-		<img src="images\avatar.png" class="avatar">
+		<img src="../images/avatar.png" class="avatar">
 		<h1>Login</h1>
-		<form name="f1" action="authenticationtpo.php" onsubmit="return validation()" method="POST">
+		<form name="f1" action="authentication.php" onsubmit="return validation()" method="POST">
 			<p>Username</p>
-			<input type="text" id="tpo" name="tpo" placeholder="Enter Username">
+			<input type="text" id="admin" name="admin" placeholder="Enter Username">
 			<p>Password</p>
 			<input type="password" id="pass" name="pass" placeholder="Enter Password">
 			<input type="submit" id="btn" name="submit" value="Login">
@@ -31,7 +31,7 @@
 	</div>
 	<script>
 		function validation() {
-			var id = document.f1.tpo.value;
+			var id = document.f1.admin.value;
 			var ps = document.f1.pass.value;
 			if (id.length == "" && ps.length == "") {
 				alert("User Name and Password fields are empty");

@@ -1,5 +1,5 @@
 <?php
-include('connection.php');
+include('../connection.php');
 $username = $_POST['tpo'];
 $password = $_POST['pass'];
   
@@ -15,11 +15,11 @@ $count = mysqli_num_rows($result);
 
 if ($count == 1) {
     echo "<h1><center> Login successful </center></h1>";
-    header("refresh:5; url=TPO/home.php");
+    header("refresh:2; url=home.php");
 	exit();
 } else {
     echo "<h1> Login failed. Invalid username or password.</h1>";
-    header("refresh:5; url=logintpo.php");
+    header("refresh:2; url=logintpo.php");
 	exit();
 }  
 ?>  

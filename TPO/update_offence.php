@@ -62,8 +62,10 @@
                 <input type="datetime-local" name="dt" class="form-control" value="<?php echo $dt ?>">
             </div>
             <div class="form-group">
-                <input type="radio" value="PAID" name="status">PAID
-                <input type="radio" value="UNPAID" name="status">UNPAID
+                <label for="status" class="form-label">STATUS</label>
+                <br>
+                <input  type="radio" value="PAID" name="status" required>PAID
+                <input style="margin-left:5%;" type="radio" value="UNPAID" name="status" required>UNPAID
             </div>
             <div class="form-group">
                 <input type="submit" name="update" class="btn btn-primary mt-2" value="update">
